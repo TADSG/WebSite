@@ -5,7 +5,7 @@ The official WebSite of TADSG
 # Setup Developing Environment #
 Make sure you have node and npm in system.
 If not, please install with:
-``` cmd
+``` shell
 $ brew install node
 $ brew install npm
 ```
@@ -13,7 +13,7 @@ $ brew install npm
 
 # Install Dependencies #
 Move to project root first:
-``` cmd
+``` shell
 $ cd WebSite
 $ npm install # Install dependencies:
 ```
@@ -21,14 +21,14 @@ $ npm install # Install dependencies:
 
 # Run local debug server #
  Run express as debug mode:
-``` cmd
+``` shell
 $ cd WebSite # Move to project root first:
 $ DEBUG=WebSite:* npm start
 ```
 By default, the web site will run on [http://localhost:3000]()
 
 ## Run in different port number ##
-``` cmd
+``` bash
 $ cd WebSite # Move to project root first:
 $ DEBUG=WebSite:* PORT=[port_number] npm start
 ```
@@ -36,6 +36,15 @@ $ DEBUG=WebSite:* PORT=[port_number] npm start
 
 # Deploy #
 Deploy to Heroku
-``` cmd
+``` shell
 $ web: npm start
 ```
+
+# Pedning Materials #
+* [Rick - 高效能執行緖](http://www.accupass.com/go/gdgkaohsiung30) [(slide)](http://www.slideshare.net/rickwu12)
+* [TADSG meeting - 18th](http://www.accupass.com/go/adc18)
+
+
+# Candidates of Server #
+* [Hostinger (php)](https://free.com.tw/hostinger/)
+

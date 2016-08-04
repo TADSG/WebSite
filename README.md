@@ -40,7 +40,7 @@ Deploy to Heroku
 $ web: npm start
 ```
 
-# Pedning Materials #
+# Pending Materials #
 * [Rick - 高效能執行緖](http://www.accupass.com/go/gdgkaohsiung30) [(slide)](http://www.slideshare.net/rickwu12)
 * [TADSG meeting - 18th](http://www.accupass.com/go/adc18)
 
